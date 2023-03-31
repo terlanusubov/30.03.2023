@@ -1,0 +1,121 @@
+/* My Defaults */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    border-bottom:1px solid #000;
+    padding-bottom: 20px;
+    margin-top:60px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* End My Defaults */
+
+
+/* Header */
+#header{
+    padding: 10px 0px;
+    border-bottom:1px solid black;
+}
+#logo{
+    display: inline-block;
+}
+#logo .first{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 8px;
+    letter-spacing: 3px;
+}
+#logo .second{
+   font-size: 20px;
+   letter-spacing: 4px;
+}
+
+#nav{
+    display: inline-block;
+    text-align: right;
+    width: 85%;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color:#000;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding:15px 20px;
+    display: inline-block;
+}
+/* End Header */
+
+#banner{
+    background-image: url("../img/banner.jpeg");
+    height: 87.8vh;
+    padding-top:20%;
+}
+#banner-text{
+    text-align: center;
+}
+#banner-text h1{
+    display: inline-block;
+    letter-spacing: 3px;
+}
+#banner-text span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* opacity: 0.75; */
+    padding:15px;
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+/* End Banner */
+
+/* Projects */
+#projects{
+    margin-top: 30px;
+}
+
+#projects .project{
+    width: 21.7%;
+    height: 250px;
+    background-image: url("../img/house.jpeg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin:10px 2%;
+}
+#projects .project.left{
+    margin-left:0;
+}
+
+#projects .project.right{
+    margin-right:0;
+}
+
+
+
+#projects .project span{
+    display: inline-block;
+    padding:10px 20px;
+    color:#fff;
+    font-weight: bold;
+    background-color: #000;
+}
